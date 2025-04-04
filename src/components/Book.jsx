@@ -288,7 +288,7 @@ export const Book = ({...props}) => {
     }
   }, [page])
   return (
-  <group {...props} rotation-y={Math.PI / 2}>
+  <group {...props} rotation-y={Math.PI / 2.2*Math.PI}>
     {[...pages].map((pageData, index) => (
       <Page 
         key={index} 

@@ -3,7 +3,7 @@ import { Book } from "./Book";
 export const Experience = () => {
   return (
     <>
-      <Float
+      {/* <Float
         rotation-x={-Math.PI / 4}
         rotation-y={Math.PI / 1}
         floatIntensity={1}
@@ -11,21 +11,22 @@ export const Experience = () => {
         rotationIntensity={2}
       >
         <Book/>
-      </Float>
-      <OrbitControls />
+      </Float> */}
+      <Book />
+      {/* <OrbitControls /> */}
       <Environment preset="studio"></Environment>
-      <directionalLight
+      {/* <directionalLight
         position={[2, 5, 2]}
         intensity={2.5}
         castShadow
         shadow-mapSize-width={2048}
         shadow-mapSize-height={2048}
         shadow-bias={-0.0001}
-      />
-      <mesh position-y={-1.5} rotation-x={-Math.PI / 2} receiveShadow>
+      /> */}
+      {/* <mesh position-y={-1.5} rotation-x={-Math.PI / 2} receiveShadow>
         <planeGeometry args={[100, 100]} />
         <shadowMaterial transparent opacity={0.2} />
-      </mesh>
+      </mesh> */}
     </>
   );
 };

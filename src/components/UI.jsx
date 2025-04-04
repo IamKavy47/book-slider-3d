@@ -50,12 +50,6 @@ export const UI = () => {
   return (
     <>
       <main className=" pointer-events-none select-none z-10 fixed  inset-0  flex justify-between flex-col">
-        <a
-          className="pointer-events-auto mt-10 ml-10"
-          href="/"
-        >
-          <span className="text-white font-bold"><span className="text-[#5a47ce]">&#123; </span>SJCODES<span className="text-[#5a47ce]"> &#125;</span></span>
-        </a>
         <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
             {[...pages].map((_, index) => (
